@@ -50,9 +50,9 @@ export default function Navbar() {
                 </a>
               </li>
             </ul>
-          </div>
           <div className="justify-content-end iconMode">
             <FaMoon fontSize={25} />
+          </div>
           </div>
         </div>
       </nav>
