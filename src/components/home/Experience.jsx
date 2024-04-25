@@ -8,7 +8,7 @@ export default function Experience() {
         <h1 className='text-center'>Experience</h1>
         <div className="row mt-3">
           <div className="col-lg-6">
-            <img src={image} alt="" style={{width: '100%', height: '250px', borderRadius: '12px'}}/>
+            <img src={image} alt="" style={{width: '100%', height: '100%', borderRadius: '12px'}}/>
           </div>
           <div className="col-lg-6">
             <h4>Work, Internship and Volunteership</h4>
