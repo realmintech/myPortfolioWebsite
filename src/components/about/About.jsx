@@ -1,0 +1,31 @@
+import './About.css'
+import myPic from '../../assets/image.jpeg';
+import PdfButton from './PdfBtn';
+export default function About() {
+  return (
+    <>
+      <div className="container mt-3" id='about'>
+        <div className="row aboutMe animate__fadeInLeft">
+          <div className="col-lg-6 swirl-in-fwd">
+            <img
+              src={myPic}
+              style={{ width: '350px', height: '350px', borderRadius: '50%' }}
+            />
+          </div>
+          <div className="col-lg-6">
+            <h1>About me</h1>
+            <p>
+              My name is Adesina Mariam Temitope. I’m a graduate of Animal
+              science from Federal university of technology Minna, Niger state.
+              I am most passionate about giving back to the community, and my
+              goal is to pursue this passion within the field of software
+              engineering. In my free time I like coding, working on open source
+              projects and surfing the net.
+            </p>
+            <PdfButton />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

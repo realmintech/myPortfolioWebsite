@@ -1,0 +1,40 @@
+/* .body {
+  background-image: linear-gradient(
+    136deg,
+    rgb(68, 132, 206),
+    rgb(26, 215, 192),
+    rgb(255, 155, 17),
+    rgb(155, 89, 182),
+    rgb(255, 127, 127),
+    rgb(236, 240, 241)
+  );
+  background-position: 0% 0%;
+  background-size: 1200% 1200%;
+} */
+
+.resume:hover {
+    background-color:#9c240c;
+    color:  wheat ;
+   transform: rotate3d(75deg);
+   transition-duration: ease out 3s;
+}
+.contact {
+    background-color:#9c240c;
+    color:  wheat ;
+    padding: 10px;
+    border-radius: 12px;
+   transform: rotate3d(75deg);
+   transition-duration: ease out 3s;
+}
+
+.message-area {
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.carousel-caption {
+  color:#9c240c;
+  background: rgb(247, 243, 243);
+  background-color: rgba(250, 245, 245, 0.562);
+}
