@@ -73,7 +73,7 @@ export default function Project() {
   ];
   return (
     <>
-      <div className="container" id='project'>
+      <div className="container mt-3" id='project'>
         <h1 className="text-center">Projects done so far</h1>
         {data.map((item, index) => {
           return (

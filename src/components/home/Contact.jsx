@@ -12,7 +12,7 @@ export default function Contact() {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           <div className="col-lg-6">
             <h1>Hire me</h1>

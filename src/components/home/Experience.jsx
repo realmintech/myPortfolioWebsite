@@ -4,7 +4,7 @@ import Accordion from './Accordion';
 export default function Experience() {
   return (
     <>
-      <div className="container message-area" id="experience">
+      <div className="container message-area my-5" id="experience">
         <h1 className="text-center">Experience</h1>
         <div className="row mt-3">
           <div className="col-lg-6">
