@@ -25,7 +25,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/home">
+                <a className="nav-link" href="#home">
                   Home
                 </a>
               </li>
