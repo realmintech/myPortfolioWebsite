@@ -70,7 +70,7 @@ export default function Carousel() {
             />
             <div className="carousel-caption d-none d-md-block">
               <h5>Adorable Quote</h5>
-              <p>If you dont have a goal you are not better than a goat.</p>
+              <p>If you dont have a goal, you are not better than a goat.</p>
             </div>
           </div>
         </div>

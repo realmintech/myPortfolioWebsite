@@ -43,7 +43,7 @@ export default function Contact() {
               ></textarea>
             </div>
             <button className="contact btn-outline-none">
-              <a href="https://wa.me/qr/5RQYQVLSRBVGL1"> Drop a message</a>
+              <a href="https://wa.me/qr/5RQYQVLSRBVGL1">Lets talk project on whatApp</a>
             </button>
           </div>
         </div>
