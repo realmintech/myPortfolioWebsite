@@ -1,14 +1,18 @@
-import image from '../../assets/Capture8.jpeg'
+import image from '../../assets/Capture8.jpeg';
 import Accordion from './Accordion';
 
 export default function Experience() {
   return (
     <>
-      <div className="container message-area" id='experience'>
-        <h1 className='text-center'>Experience</h1>
+      <div className="container message-area" id="experience">
+        <h1 className="text-center">Experience</h1>
         <div className="row mt-3">
           <div className="col-lg-6">
-            <img src={image} alt="" style={{width: '100%', height: '100%', borderRadius: '12px'}}/>
+            <img
+              src={image}
+              alt=""
+              style={{ width: '100%', height: '100%', borderRadius: '12px' }}
+            />
           </div>
           <div className="col-lg-6">
             <h4>Work, Internship and Volunteership</h4>
@@ -25,7 +29,7 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <div className='container my-3'>
+      <div className="container my-3">
         <Accordion />
       </div>
     </>

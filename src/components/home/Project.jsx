@@ -78,19 +78,19 @@ export default function Project() {
         {data.map((item, index) => {
           return (
             <div className="row" key={index}>
-              <div className="col-lg-6 mt-3">
+              <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
                 <img
                   src={item.image}
                   alt=""
                   style={{
-                    width: '100%',
-                    height: '100%',
+                    width: '80%',
+                    height: '250px',
                     objectFit: 'contain',
                   }}
                 />
               </div>
-              <div className="col-lg-6 mt-5">
-                <div className="card" style={{ width: '100%', height: '100%' }}>
+              <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
+                <div className="card" style={{ width: '25rem' }}>
                   <div className="card-body">
                     <h5 className="card-title">{item.title}</h5>
                     <p>{item.about}</p>
