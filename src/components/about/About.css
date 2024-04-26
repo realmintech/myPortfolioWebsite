@@ -1,11 +1,7 @@
 .resume:hover {
-    background-color: #9c240c ;
+    background-color: navy ;
    transform: rotate3d(75deg);
    transition-duration: ease out 3s;
 }
 
-.swirl-in-fwd {
-	-webkit-animation: swirl-in-fwd 0.9s ease-out both;
-	        animation: swirl-in-fwd 0.9s ease-out both;
-}
 

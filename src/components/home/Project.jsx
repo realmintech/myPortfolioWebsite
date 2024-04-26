@@ -111,7 +111,7 @@ export default function Project() {
                     </button>
                     <button
                       style={{ borderRadius: '15px' }}
-                      className="btn btn-outline-none resume"
+                      className="btn btn-outline-none resume mx-3"
                     >
                       <a
                         href={item.demoLink}
