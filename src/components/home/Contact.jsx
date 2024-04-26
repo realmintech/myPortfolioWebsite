@@ -42,8 +42,9 @@ export default function Contact() {
                 rows="3"
               ></textarea>
             </div>
-            <button className="contact btn-outline-none">
-              <a href="https://wa.me/qr/5RQYQVLSRBVGL1" className="btn btn-outline-none">Lets connect on whatApp</a>
+            <button className="contact ">
+              <a href="https://wa.me/qr/5RQYQVLSRBVGL1" className="btn btn-outline-none"
+              style={{color: 'powderblue'}}>Lets connect on whatApp</a>
             </button>
           </div>
         </div>
