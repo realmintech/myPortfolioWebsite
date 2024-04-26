@@ -1,3 +1,11 @@
+import {
+  FaLinkedin,
+  FaSlack,
+  FaTelegram,
+  FaTwitter,
+  FaWhatsapp,
+} from 'react-icons/fa';
+
 export default function Contact() {
   return (
     <>
@@ -24,28 +32,28 @@ export default function Contact() {
             <p>Do you just need a cool website? 🙋‍♂️</p>
             <p>I am looking forward to hearing from you!</p>
           </div>
-          <div className="col-lg-6 message-area my-3 py-3">
-            <div className="mb-3">
-              <label className="form-label">Email address</label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Input your email"
-              />
-            </div>
-            <div className="mb-3">
-              <label className="form-label">Message</label>
-              <textarea
-                className="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-            <button className="contact ">
-              <a href="https://wa.me/qr/5RQYQVLSRBVGL1" className="btn btn-outline-none"
-              style={{color: 'powderblue'}}>Lets connect on whatApp</a>
-            </button>
+          <div className="col-lg-6 message-area my-3 p-3">
+            <h1 className='mb-5'>Contact Me @</h1>
+            <FaTwitter
+              href="https://twitter.com/Adesina20638088"
+              style={{ fontSize: '50px', color: 'navy' }}
+            />
+            <FaWhatsapp
+              href="https://wa.me/qr/5RQYQVLSRBVGL1"
+              style={{ fontSize: '50px', color: 'green' }}
+            />
+            <FaLinkedin
+              href="https://www.linkedin.com/in/mariam-adesina-temitope/"
+              style={{ fontSize: '50px', color: 'navy' }}
+            />
+            <FaSlack
+              href="realmintech.slack.com"
+              style={{ fontSize: '50px', color: 'purple' }}
+            />
+            <FaTelegram
+              href="https://www.telegram.com/in/adesina-temitope"
+              style={{ fontSize: '50px', color: 'orange' }}
+            />
           </div>
         </div>
       </div>
