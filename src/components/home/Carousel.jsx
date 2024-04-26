@@ -51,7 +51,7 @@ export default function Carousel() {
           <div className="carousel-item">
             <img
               src={TodoListApp}
-              style={{ width: '100%', objectFit: 'contain', height: '450px' }}
+              style={{ width: '100%', objectFit: 'contain'}}
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -65,7 +65,7 @@ export default function Carousel() {
           <div className="carousel-item active">
             <img
               src={WeatherApp}
-              style={{ width: '100%', objectFit: 'contain', height: '450px' }}
+              style={{ width: '100%', objectFit: 'contain', }}
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
