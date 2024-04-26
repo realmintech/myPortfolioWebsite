@@ -51,7 +51,7 @@ export default function Navbar() {
               </li>
             </ul>
           <div className="mx-5 iconMode">
-            <FaMoon fontSize={25} />
+            {/* <FaMoon fontSize={25} /> */}
           </div>
           </div>
         </div>
