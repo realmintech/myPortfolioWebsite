@@ -14,7 +14,7 @@ export default function Project() {
         'This is a Ecommerce website. It was implemented using JavaScript. Custom JSON data was consumed and the layout was done using Bootstrap.',
       stack: 'HTML, CSS, and JavaScript.',
       githubLink: 'https://github.com/realmintech/Js_ecommerce.git',
-      demoLink: 'js-ecommerce-gamma.vercel.app',
+      demoLink: 'https://js-ecommerce-gamma.vercel.app/',
     },
     {
       image: TodoListApp,
