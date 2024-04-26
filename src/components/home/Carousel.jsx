@@ -9,7 +9,6 @@ export default function Carousel() {
         id="carouselExampleIndicators"
         className="carousel slide"
         data-bs-ride="carousel"
-        style={{height: '450px'}}
       >
         <div className="carousel-indicators">
           <button
@@ -37,7 +36,7 @@ export default function Carousel() {
           <div className="carousel-item">
             <img
               src={Ecommerce}
-              style={{ width: '100%', objectFit: 'contain' , height: '400px'}}
+              style={{ width: '100%', objectFit: 'contain'}}
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
