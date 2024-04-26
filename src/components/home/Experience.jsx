@@ -16,7 +16,7 @@ export default function Experience() {
           </div>
           <div className="col-lg-6 ">
             <h4>Work, Internship and Volunteership</h4>
-            <h6>
+            <p>
               I am working as a full time software developer with an experience
               of about 2 year and have done internships after graduating from
               the university. I've done projects both as a solo developer and in
@@ -25,7 +25,7 @@ export default function Experience() {
               technologies as a developer. I've developed and maintained
               multiple projects using these technologies, and I'm always eager
               to learn more.
-            </h6>
+            </p>
           </div>
         </div>
       </div>
