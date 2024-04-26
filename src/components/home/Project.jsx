@@ -41,7 +41,7 @@ export default function Project() {
         'This is a weather app. It was implemented using react js. Weather API was consumed and the layout was done using Tailwind CSS.',
       stack: 'HTML, CSS, JavaScript, and react',
       githubLink: 'https://github.com/realmintech/weatherApi.git',
-      demoLink: 'weather-api-beige-zeta.vercel.app',
+      demoLink: 'https://weather-api-beige-zeta.vercel.app/',
     },
     {
       image: Dictionary,
