@@ -83,16 +83,16 @@ export default function Project() {
                   src={item.image}
                   alt=""
                   style={{
-                    width: '80%',
+                    width: '100%',
                     height: '250px',
-                    objectFit: 'contain',
+                    objectFit: 'cover',
                     borderRadius: '12px',
                     boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
                   }}
                 />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
-                <div className="card" style={{ width: '25rem' }}>
+                <div className="card" style={{ width: '100%' }}>
                   <div className="card-body">
                     <h5 className="card-title">{item.title}</h5>
                     <p>{item.about}</p>

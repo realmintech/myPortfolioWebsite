@@ -1,6 +1,6 @@
 import './Navbar.css';
 import myPic from '../../assets/image.jpeg';
-import { FaMoon } from 'react-icons/fa';
+// import { FaMoon } from 'react-icons/fa';
 
 export default function Navbar() {
   return (

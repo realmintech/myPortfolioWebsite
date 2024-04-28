@@ -6,13 +6,13 @@ export default function About() {
     <>
       <div className="container mt-3" id='about'>
         <div className="row aboutMe animate__fadeInLeft">
-          <div className="col-lg-6 swirl-in-fwd">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <img
               src={myPic}
               style={{ width: '350px', height: '350px', borderRadius: '50%' }}
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6 col-sm-6">
             <h1>About me</h1>
             <p>
               My name is Adesina Mariam Temitope. I’m a graduate of Animal
