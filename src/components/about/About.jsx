@@ -13,7 +13,7 @@ export default function About() {
               style={{ width: '240px', height: '240px', borderRadius: '50%' }}
             />
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6 aboutMe">
+          <div className="col-lg-6 col-md-6 col-sm-6 mx-3 aboutMehead">
             <h1>About me</h1>
             <p>
               My name is Adesina Mariam Temitope. I’m a graduate of Animal
@@ -24,7 +24,7 @@ export default function About() {
               projects and surfing the net.
             </p>
             <div className="resumeBtn">
-            <PdfButton />
+              <PdfButton />
             </div>
           </div>
         </div>

@@ -12,6 +12,28 @@
     border: 1px solid gray;
 }
 
+@media (max-width: 768px) {
+.cirle {
+    margin: auto;
+}
+
+.aboutMehead {
+    width: 100%;
+}
+
+.aboutMehead h1 {
+    text-align: center;
+}
+
+.resumeBtn {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
+}
+
 @media (max-width: 500px) {
     .cirle {
     width: 280px;
@@ -19,26 +41,49 @@
     padding: 20px;
     border-radius: 50%;
     border: 1px solid gray;
-    margin: 10px 65px;
+    /* margin: 10px 65px; */
+    margin: auto;
 }
 
-.aboutMe h1, .resumeBtn {
+.aboutMehead h1, .resumeBtn {
  text-align: center;
 }
 }
 
-
-@media (max-width: 3200px) {
+@media (max-width: 420px) {
     .cirle {
     width: 280px;
     height: 280px;
     padding: 20px;
     border-radius: 50%;
     border: 1px solid gray;
-    margin: 10px 65px;
+    /* margin: 10px 18px; */
+    margin: auto;
 }
 
 .aboutMe h1, .resumeBtn {
  text-align: center;
+}
+.image {
+    width: 100%;
+}
+}
+
+@media (max-width: 320px) {
+    .cirle {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    /* margin: 10px 18px; */
+    margin: auto;
+}
+
+.aboutMe h1, .resumeBtn {
+ text-align: center;
+}
+.image {
+    width: 100%;
 }
 }
