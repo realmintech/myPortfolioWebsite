@@ -4,10 +4,26 @@
    transition-duration: ease out 3s;
 }
 
+.cirle {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
 @media (max-width: 500px) {
-    .image {
-      width: 350px;
-      height: 350px;
-    }
-    
+
+    .cirle {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 10px 65px;
+}
+
+.aboutMe h1, .resumeBtn {
+ text-align: center;
+}
 }
