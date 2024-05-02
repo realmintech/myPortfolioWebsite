@@ -8,6 +8,7 @@ export default function About() {
         <div className="row aboutMe animate__fadeInLeft">
           <div className="col-lg-6 col-md-6 col-sm-6">
             <img
+            className='image'
               src={myPic}
               style={{ width: '350px', height: '350px', borderRadius: '50%' }}
             />

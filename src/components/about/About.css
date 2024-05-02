@@ -4,4 +4,10 @@
    transition-duration: ease out 3s;
 }
 
-
+@media (max-width: 500px) {
+    .image {
+      width: 350px;
+      height: 350px;
+    }
+    
+}
