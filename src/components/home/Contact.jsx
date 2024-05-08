@@ -9,8 +9,7 @@ import {
 export default function Contact() {
   return (
     <>
-      <div id="contact">
-      </div>
+      <div id="contact"></div>
       <div className="container mt-5">
         <div className="row">
           <div className="col-lg-6">
@@ -24,27 +23,16 @@ export default function Contact() {
             <p>I am looking forward to hearing from you!</p>
           </div>
           <div className="col-lg-6 message-area my-3 p-3">
-            <h1 className='mb-5'>Contact Me @</h1>
-            <FaTwitter
-              href="https://twitter.com/Adesina20638088"
-              style={{ fontSize: '50px', color: 'navy' }}
-            />
-            <FaWhatsapp
-              href="https://wa.me/qr/5RQYQVLSRBVGL1"
-              style={{ fontSize: '50px', color: 'green' }}
-            />
-            <FaLinkedin
-              href="https://www.linkedin.com/in/mariam-adesina-temitope/"
-              style={{ fontSize: '50px', color: 'navy' }}
-            />
-            <FaSlack
-              href="realmintech.slack.com"
-              style={{ fontSize: '50px', color: 'purple' }}
-            />
-            <FaTelegram
-              href="https://www.telegram.com/in/adesina-temitope"
-              style={{ fontSize: '50px', color: 'orange' }}
-            />
+            <h1 className="mb-5">Contact Me @</h1>
+            <a href="https://twitter.com/Adesina20638088">
+              <FaTwitter style={{ fontSize: '50px', color: 'navy' }} />
+            </a>
+            <a href="https://wa.me/qr/5RQYQVLSRBVGL1">
+              <FaWhatsapp style={{ fontSize: '50px', color: 'green' }} />
+            </a>
+            <a href="https://www.linkedin.com/in/mariam-adesina-temitope/">
+              <FaLinkedin style={{ fontSize: '50px', color: 'navy' }} />
+            </a>
           </div>
         </div>
       </div>

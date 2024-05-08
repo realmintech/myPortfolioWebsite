@@ -1,5 +1,4 @@
 import image from '../../assets/Capture8.jpeg';
-import Accordion from './Accordion';
 
 export default function Experience() {
   return (
@@ -15,7 +14,7 @@ export default function Experience() {
             />
           </div>
           <div className="col-lg-6 ">
-            <h4>Work, Internship and Volunteership</h4>
+            <h4>Work, Internship and Volunteer</h4>
             <p>
               I am working as a full time software developer with an experience
               of about 2 year and have done internships after graduating from
@@ -28,9 +27,6 @@ export default function Experience() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="container my-3">
-        <Accordion />
       </div>
     </>
   );

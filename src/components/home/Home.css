@@ -27,3 +27,29 @@
   background: rgb(247, 243, 243);
   background-color: rgba(250, 245, 245, 0.562);
 }
+
+.row_div  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (max-width:986px) {
+  .seo {
+     margin-top: 20px;
+  }
+}
+
+@media (max-width:740px) {
+  .seo {
+     margin-top: 20px;
+  }
+
+  .row_div div {
+    width: 100%;
+    margin-top: 20px;
+    /* justify-content: center; */
+    /* margin: auto; */
+  }
+}
+
