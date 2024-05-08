@@ -4,19 +4,25 @@ export default function Service() {
     <>
       <div
         className="mt-3"
-        style={{ backgroundColor: 'powderblue', color: 'navy' }}
+        style={{
+          backgroundColor: 'powderblue',
+          color: 'navy',
+          marginBottom: '10px',
+        }}
       >
         <div className="text-center">
           <h3>Services</h3>
           <p>What I do.</p>
         </div>
         <div className="container">
-          <div className="row_div">
+          <div className="row_div ">
             <div
+              className="mb-3"
               style={{
                 border: '1px solid navy',
                 borderRadius: '10px',
                 width: '300px',
+                padding: '5px',
               }}
             >
               <FaCode fontSize={25} />
@@ -32,10 +38,12 @@ export default function Service() {
               </p>
             </div>
             <div
+              className="mb-3"
               style={{
                 border: '1px solid navy',
                 borderRadius: '10px',
                 width: '300px',
+                padding: '5px',
               }}
             >
               <FaRobot fontSize={25} />
@@ -51,11 +59,12 @@ export default function Service() {
               </p>
             </div>
             <div
-              className="seo"
+              className="seo mb-3"
               style={{
                 border: '1px solid navy',
                 borderRadius: '10px',
                 width: '300px',
+                padding: '5px',
               }}
             >
               <FaPenFancy fontSize={25} />
