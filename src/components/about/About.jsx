@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <div className="container mt-3" id="about">
-        <div className="row aboutMe animate__fadeInLeft">
+        <div className="row aboutMe">
           <div className="col-lg-6 col-md-6 col-sm-6 cirle">
             <img
               className="image"
@@ -13,7 +13,7 @@ export default function About() {
               style={{ width: '240px', height: '240px', borderRadius: '50%' }}
             />
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6 mx-3 aboutMehead">
+          <div className="col-lg-6 col-md-6 col-sm-6 aboutMehead">
             <h1>About me</h1>
             <p>
               My name is Adesina Mariam Temitope. I’m a graduate of Animal

@@ -1,13 +1,17 @@
 .nav-link:hover {
-  color: powderblue;
+  color: white;
+}
+
+.nav-link {
+  color: white;
 }
 
 .iconMode {
-    color: powderblue ;
+  color: white;
 }
 
 .navbar {
-  background-color:navy ;
+  background-color: navy;
 }
 /* #E44C31 Mandarin red*/
 /* #161616 pot black */

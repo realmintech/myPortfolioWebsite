@@ -4,9 +4,21 @@ import Ecommerce from '../../assets/Capture4.jpeg';
 import Dictionary from '../../assets/Capture5.jpeg';
 import Calculator from '../../assets/Capture6.jpeg';
 import Currency from '../../assets/Capture7.jpeg';
+import NoteApp from '../../assets/note-app.jpg';
+
+import './Home.css';
 
 export default function Project() {
   const data = [
+    {
+      image: NoteApp,
+      title: 'Note app',
+      about:
+        'The Note App is a simple web application that allows users to create, edit, and delete notes. Each note includes a title, message, and a timestamp indicating when it was created. The application leverages localStorage to persist notes across sessions, ensuring that your notes are available even after refreshing the page or closing the browser.',
+      stack: 'HTML, CSS, bootstrap and Reactjs.',
+      githubLink: 'https://github.com/realmintech/note-app.git',
+      demoLink: 'note-app-flax-three.vercel.app',
+    },
     {
       image: Ecommerce,
       title: 'Ecommerce',
@@ -73,7 +85,7 @@ export default function Project() {
   ];
   return (
     <>
-      <div className="container mt-3" id='project'>
+      <div className="container mt-3" id="project">
         <h1 className="text-center">Projects done so far</h1>
         {data.map((item, index) => {
           return (
@@ -91,8 +103,11 @@ export default function Project() {
                   }}
                 />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
-                <div className="card" style={{ width: '100%' }}>
+              <div className="col-lg-6 col-md-6 col-sm-12 mt-3">
+                <div
+                  className="card"
+                  style={{ width: '100%', height: '250px' }}
+                >
                   <div className="card-body">
                     <h5 className="card-title">{item.title}</h5>
                     <p>{item.about}</p>

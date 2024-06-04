@@ -1,7 +1,6 @@
 import {
+  FaGithub,
   FaLinkedin,
-  FaSlack,
-  FaTelegram,
   FaTwitter,
   FaWhatsapp,
 } from 'react-icons/fa';
@@ -32,6 +31,9 @@ export default function Contact() {
             </a>
             <a href="https://www.linkedin.com/in/mariam-adesina-temitope/">
               <FaLinkedin style={{ fontSize: '50px', color: 'navy' }} />
+            </a>
+            <a href="https://github.com/realmintech">
+              <FaGithub style={{ fontSize: '50px', color: 'grey' }} />
             </a>
           </div>
         </div>

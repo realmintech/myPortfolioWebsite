@@ -1,48 +1,52 @@
 .resume {
-    background-color:navy;
-    color:  white ;
+  background-color: navy;
+  color: white;
 }
 
-.resume:hover {
-    background-color:powderblue;
-    color:  navy ;
-   transform: rotate3d(75deg);
-   transition-duration: ease out 3s;
+.resume a {
+  color: white;
 }
 .contact {
-    background-color: navy;
-    color:  powderblue ;
-    padding: 5px;
-    border-radius: 12px;
+  background-color: navy;
+  color: powderblue;
+  padding: 5px;
+  border-radius: 12px;
 }
 
 .message-area {
   border-radius: 12px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
 
 .carousel-caption {
-  color:navy;
+  color: navy;
   background: rgb(247, 243, 243);
   background-color: rgba(250, 245, 245, 0.562);
 }
 
-.row_div  {
+.row_div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 3rem;
 }
 
-@media (max-width:986px) {
+.row_div > div {
+  background-color: white;
+  color: navy;
+  padding-right: 20px;
+}
+
+
+@media (max-width: 986px) {
   .seo {
-     margin-top: 20px;
+    margin-top: 20px;
   }
 }
 
-@media (max-width:740px) {
+@media (max-width: 740px) {
   .seo {
-     margin-top: 20px;
+    margin-top: 20px;
   }
 
   .row_div div {
@@ -52,4 +56,3 @@
     /* margin: auto; */
   }
 }
-

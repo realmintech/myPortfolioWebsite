@@ -5,12 +5,12 @@ export default function TechnicalSkill() {
       <div
         className="sectionSkills"
         style={{
-            padding:'20px 10px',
+          padding: '20px 10px',
           display: 'flex',
           flexWrap: 'nowrap',
-          justifyContent: 'space-evenly',
-          backgroundColor: 'powderblue',
-          color: 'navy',
+          backgroundColor: 'navy',
+          padding: '50px',
+          color: 'white',
         }}
       >
         <div className="writeUp">
@@ -28,11 +28,19 @@ export default function TechnicalSkill() {
                 padding: '10px',
                 margin: '5px',
                 border: 'none',
+                color: 'navy',
               }}
             >
               Presentation skill
             </button>
-            <button style={{ padding: '10px', margin: '5px', border: 'none' }}>
+            <button
+              style={{
+                color: 'navy',
+                padding: '10px',
+                margin: '5px',
+                border: 'none',
+              }}
+            >
               Critical thinking
             </button>
             <button
@@ -41,11 +49,19 @@ export default function TechnicalSkill() {
                 padding: '10px',
                 margin: '5px',
                 border: 'none',
+                color: 'navy',
               }}
             >
               Communication skill
             </button>
-            <button style={{ padding: '10px', margin: '5px', border: 'none' }}>
+            <button
+              style={{
+                color: 'navy',
+                padding: '10px',
+                margin: '5px',
+                border: 'none',
+              }}
+            >
               Good time management skill
             </button>
             <button
@@ -54,6 +70,7 @@ export default function TechnicalSkill() {
                 padding: '10px',
                 margin: '5px',
                 border: 'none',
+                color: 'navy',
               }}
             >
               Leadership skill

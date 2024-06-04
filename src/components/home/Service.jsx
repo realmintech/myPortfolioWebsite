@@ -5,12 +5,12 @@ export default function Service() {
       <div
         className="mt-3"
         style={{
-          backgroundColor: 'powderblue',
-          color: 'navy',
+          backgroundColor: 'navy',
+          color: 'white',
           marginBottom: '10px',
         }}
       >
-        <div className="text-center">
+        <div className="text-center mt-5 pt-5">
           <h3>Services</h3>
           <p>What I do.</p>
         </div>
