@@ -22,7 +22,7 @@ export default function Service() {
                 border: '1px solid navy',
                 borderRadius: '10px',
                 width: '300px',
-                padding: '5px',
+                padding: '20px',
               }}
             >
               <FaCode fontSize={25} />
@@ -43,7 +43,7 @@ export default function Service() {
                 border: '1px solid navy',
                 borderRadius: '10px',
                 width: '300px',
-                padding: '5px',
+                padding: '20px',
               }}
             >
               <FaRobot fontSize={25} />
@@ -64,7 +64,7 @@ export default function Service() {
                 border: '1px solid navy',
                 borderRadius: '10px',
                 width: '300px',
-                padding: '5px',
+                padding: '20px',
               }}
             >
               <FaPenFancy fontSize={25} />
