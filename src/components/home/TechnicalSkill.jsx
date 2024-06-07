@@ -21,7 +21,7 @@ export default function TechnicalSkill() {
           </p>
         </div>
         <div>
-          <div className="softSkill">
+          <div className="softSkill mx-5">
             <button
               style={{
                 borderRadius: '50%',
@@ -54,6 +54,7 @@ export default function TechnicalSkill() {
             >
               Communication skill
             </button>
+            <div className='mx-5'>
             <button
               style={{
                 color: 'navy',
@@ -75,6 +76,7 @@ export default function TechnicalSkill() {
             >
               Leadership skill
             </button>
+              </div>
           </div>
         </div>
       </div>

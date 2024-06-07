@@ -21,7 +21,7 @@ export default function Contact() {
             <p>Do you just need a cool website? 🙋‍♂️</p>
             <p>I am looking forward to hearing from you!</p>
           </div>
-          <div className="col-lg-6 message-area my-3 p-3">
+          <div className="col-lg-6 message-area mb-3 p-3 vh-50">
             <h1 className="mb-5">Contact Me @</h1>
             <a href="https://twitter.com/Adesina20638088">
               <FaTwitter style={{ fontSize: '50px', color: 'navy' }} />
